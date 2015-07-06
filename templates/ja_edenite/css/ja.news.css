@@ -1,0 +1,233 @@
+/*------------------------------------------------------------------------
+# JA Dravity - March, 2008
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2007 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+-------------------------------------------------------------------------*/
+
+#ja-newswrap .article_seperator {
+	background: none;
+}
+
+.ja-newsblock {
+	margin: 0;
+	display: block;
+}
+
+.ja-newsitem,
+.ja-newsitem-left,
+.ja-newsitem-right,
+.ja-newsitem-center {
+	float: left;
+	padding: 0;
+	text-align: center;
+}
+
+.ja-newsitem-left,
+.ja-newsitem-center {
+}
+
+.ja-newsitem-left div.ja-newsitem-inner,
+.ja-newsitem-center div.ja-newsitem-inner,
+.ja-newsitem-right div.ja-newsitem-inner,
+.ja-newsitem div.ja-newsitem-inner {
+	text-align: left;
+	float: left;
+}
+
+.ja-newsitem-center div.ja-newsitem-inner {
+	float: none;
+	margin: 0 auto;
+}
+
+.ja-newsitem-right div.ja-newsitem-inner {
+	float: right;
+}
+
+div.ja-newscat {
+	display: block;
+	height: 22px;
+	clear: both;
+	border-bottom: 1px solid #1E1E1E;
+	margin: 0 0 5px;
+}
+
+div.ja-newscat a,
+div.ja-newscat a:hover,
+div.ja-newscat a:active,
+div.ja-newscat a:focus {
+	display: block;
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	text-decoration: none;
+	background: #1E1E1E;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+span.title-r {
+	display: block;
+	float: left;
+	height: 22px;
+	width: 32px;
+	padding: 0;
+	background: url(../images/title-r.png) no-repeat;
+}
+
+.ja-newscatwrap .hover .ja-newscat,
+.ja-newsitem-left:hover .ja-newscat,
+.ja-newsitem-center:hover .ja-newscat,
+.ja-newsitem-right:hover .ja-newscat {
+	border-bottom: 1px solid #3C3C3C;
+}
+
+.ja-newscatwrap .hover .ja-newscat a,
+.ja-newsitem-left:hover .ja-newscat a,
+.ja-newsitem-center:hover .ja-newscat a,
+.ja-newsitem-right:hover .ja-newscat a {
+	background: #3C3C3C;
+}
+
+.ja-newscatwrap .hover span.title-r,
+.ja-newsitem-left:hover span.title-r,
+.ja-newsitem-center:hover span.title-r,
+.ja-newsitem-right:hover span.title-r  {
+	background: url(../images/title-r-hover.png) no-repeat;
+}
+
+a.ja-newstitle {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px; 
+}
+
+a.ja-newstitle:hover, a.ja-newstitle:active, a.ja-newstitle:focus {
+	color: #FFFFFF;
+}
+
+.ja-newscatwrap .ja-newscontent {
+	font-size: 92%;
+}
+
+.ja-newscontent img {
+	margin: 2px 10px 5px 0;
+	border: 3px solid #333333;
+}
+
+.ja-newscontent p {
+	margin: 10px 0;
+}
+
+.ja-newsitem ul {
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+ul.ja-newslinks {
+	margin: 15px 0 0;
+	padding: 0;
+}
+
+ul.ja-newslinks li {
+	margin: 0;
+	padding: 0 0 0 12px;
+	background: url(../images/arrow2.png) no-repeat 2px 8px;
+}
+
+ul.ja-newslinks li a,
+ul.ja-newslinks li a:hover,
+ul.ja-newslinks li a:active,
+ul.ja-newslinks li a:focus {
+	color: #CCCCCC;
+	font-size: 92%;
+}
+
+/* headline
+--------------------------------------------- */
+#jahl-newsitem {
+	padding: 10px 0;
+}
+
+.ja-newshlwrap div.ja-newscat {
+	display: block;
+	height: 22px;
+	position: relative;
+	text-transform: uppercase;
+	border-bottom: 1px solid #730408;
+}
+
+.ja-newshlwrap div.ja-newscat span {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#jahl-newsitem a.ja-newstitle { 
+	font-size: 200%;
+	font-weight: normal;
+	line-height: normal;
+	text-decoration: none;
+	color: #FFFFFF;
+	margin-bottom: 12px;
+}
+
+#jahl-newsitem img { 
+	margin: 2px 15px 10px 0;
+}
+
+/* Control bar
+--------------------------------------------- */
+.jahl-newscontrol {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+	display: block;
+	font-size: 11px;
+}
+
+.jahl-newscontrol ul {
+	margin: 0 0 0 10px;
+	padding: 0;
+	float: left;
+}
+
+.jahl-newscontrol li {
+	margin: 0;
+	padding: 0;
+	background: none;
+	display: inline;
+}
+
+#loading-indicator {
+	float: left;
+}
+
+#jahl-indicator {
+	float: left;
+	background: #202020;
+	padding: 2px 5px;
+	font-size: 10px;
+	line-height: normal;
+	margin-left: 5px;
+	display: block;
+}
+
+#ja-newswrap a.readon {
+	font-weight: normal;
+	color: #999999;
+	background: #0F0F0F;
+	float: none;
+	display: inline;
+}
+
+#ja-newswrap a.readon:hover,
+#ja-newswrap a.readon:active,
+#ja-newswrap a.readon:focus {
+	color: #CCCCCC;
+	background: #333333;
+}

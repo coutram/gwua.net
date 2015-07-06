@@ -1,0 +1,155 @@
+/*------------------------------------------------------------------------
+# JA Edentite 1.0 - Mar, 2008
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2008 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+-------------------------------------------------------------------------*/
+
+a {
+	color: #CC0000;
+}
+
+a:hover, a:active, a:focus {
+	color: #CC0000;
+}
+
+a.readon {
+	background: url(../../images/red/grad2.gif) repeat-x center #A1A1A1;
+}
+
+a.readon:hover, a.readon:active, a.readon:focus {
+	background: url(../../images/red/grad2-2.gif) repeat-x center #CC0000;
+}
+
+#ja-mainnav {
+	background: url(../../images/red/grad2.gif) repeat-x top #A1A1A1;
+}
+
+#ja-subnav li a {
+	color: #515756;
+}
+
+#ja-subnav li.active a,
+#ja-subnav li.active a:hover,
+#ja-subnav li.active a:active,
+#ja-subnav li.active a:focus {
+	color: #CC0000;
+}
+
+.contentheading {
+	color: #CC0000;
+}
+
+ul.menu li a:hover,
+ul.menu li a:active,
+ul.menu li a:focus {
+	color: #CC0000;
+}
+
+ul.menu li.active a {
+	color: #CC0000;
+}
+
+div.moduletable_hilite h3 {
+	background: url(../../images/red/grad2-2.gif) repeat-x bottom #CC0000;
+}
+
+h1.logo a {
+	background: url(../../images/red/logo.gif) no-repeat;
+}
+
+/*splitmenu*/
+#ja-splitmenu li {
+	border-right: 1px solid #BABDB6;
+}
+
+#ja-splitmenu a {
+	color: #E7E8E6;
+	border-right: 1px solid #626A69;
+}
+
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus {
+	background: url(../../images/red/grad2-1.gif) repeat-x top #626A69;
+}
+
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+	color: #FFFFFF;
+	background: url(../../images/red/grad2-2.gif) repeat-x top #CC0000;
+}
+
+/*scriptdropline*/
+#jasdl-mainnav li {
+	border-right: 1px solid #BABDB6;
+}
+
+#jasdl-mainnav a {
+	color: #E7E8E6;
+	border-right: 1px solid #626A69;
+}
+
+#jasdl-mainnav a:hover,
+#jasdl-mainnav ul li.hover a {
+	background: url(../../images/red/grad2-1.gif) repeat-x top #626A69;
+}
+
+#jasdl-mainnav li.active a,
+#jasdl-mainnav li.active a:hover,
+#jasdl-mainnav li.active a:active,
+#jasdl-mainnav li.active a:focus {
+	background: url(../../images/red/grad2-2.gif) repeat-x top #CC0000;
+}
+
+/*cssmenu*/
+#ja-cssmenu li {
+	border-right: 1px solid #BABDB6;
+}
+
+#ja-cssmenu li a {
+	color: #E7E8E6;
+	border-right: 1px solid #626A69;
+}
+
+#ja-cssmenu li:hover,
+#ja-cssmenu li.sfhover,
+#ja-cssmenu li.havechildsfhover,
+#ja-cssmenu li.havechild-activesfhover {
+	background: url(../../images/red/grad2-1.gif) repeat-x top #626A69;
+}
+
+#ja-cssmenu li a.active,
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus {
+	background: url(../../images/red/grad2-2.gif) repeat-x top #CC0000;
+}
+
+#ja-cssmenu li ul {
+	border: 1px solid #626A69;
+	background: url(../../images/red/grad2.gif) repeat-x bottom #A1A1A1;
+}
+
+#ja-cssmenu li ul li {
+	border-bottom: 1px solid #858783;
+}
+
+#ja-cssmenu li ul a:hover,
+#ja-cssmenu li ul a:active,
+#ja-cssmenu li ul a:focus,
+#ja-cssmenu ul li:hover,
+#ja-cssmenu ul li.sfhover,
+#ja-cssmenu ul li.havesubchildsfhover,
+#ja-cssmenu ul li.havesubchild-activesfhover,
+#ja-cssmenu ul ul li:hover,
+#ja-cssmenu ul ul li.sfhover,
+#ja-cssmenu ul ul li.havesubchildsfhover,
+#ja-cssmenu ul ul li.havesubchild-activesfhover {
+	background: url(../../images/red/grad2-1.gif) repeat-x top #626A69;
+}
+

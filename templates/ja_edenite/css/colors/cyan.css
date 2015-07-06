@@ -1,0 +1,31 @@
+body#bd {
+	background: url(../../images/cyan/body-top.jpg) no-repeat top center #000000;
+}
+
+a {
+	color: #009EEC;
+}
+
+.home-deco {
+	background: url(../../images/cyan/body-bg.gif) repeat-x 0 25px;;
+}
+
+ul.menu li li a {
+	background: url(../../images/cyan/arrow2.png) no-repeat 10px 12px !important;
+}
+
+.ja-newshlwrap div.ja-newscat {
+	border-bottom: 1px solid #004B70;
+}
+
+ul.ja-newslinks li {
+	background: url(../../images/cyan/arrow2.png) no-repeat 2px 8px;
+}
+
+#ja-cssmenu ul li a.active,
+#ja-cssmenu ul li a.active:hover,
+#ja-cssmenu ul li a.active:active,
+#ja-cssmenu ul li a.active:focus {
+	color: #009EEC;
+}
+

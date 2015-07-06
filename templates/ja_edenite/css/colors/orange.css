@@ -1,0 +1,119 @@
+/*------------------------------------------------------------------------
+# JA Edentite 1.0 - Mar, 2008
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2008 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+-------------------------------------------------------------------------*/
+
+a {
+	color: #E58C00;
+}
+
+a:hover, a:active, a:focus {
+	color: #E58C00;
+}
+
+a.readon:hover, a.readon:active, a.readon:focus {
+	background: url(../../images/orange/grad2-1.gif) repeat-x center #E58C00;
+}
+
+#ja-mainnav {
+	background: url(../../images/orange/grad2.gif) repeat-x top #E58C00;
+	height: 32px;
+}
+
+.contentheading {
+	color: #E58C00;
+}
+
+ul.menu li a:hover,
+ul.menu li a:active,
+ul.menu li a:focus {
+	color: #E58C00;
+}
+
+ul.menu li.active a {
+	color: #E58C00;
+}
+
+div.moduletable_hilite h3 {
+	background: url(../../images/orange/grad2.gif) repeat-x bottom #E58C00;
+}
+
+h1.logo a {
+	background: url(../../images/orange/logo.gif) no-repeat;
+}
+
+/*splitmenu*/
+#ja-splitmenu li {
+	border-right: 1px solid #F0B963;
+}
+
+#ja-splitmenu a {
+	color: #F1E7D7;
+	border-right: 1px solid #BD7300;
+}
+
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus {
+	background: url(../../images/orange/grad2-1.gif) repeat-x top #BD7300;
+}
+
+/*scriptdropline*/
+#jasdl-mainnav li {
+	border-right: 1px solid #F0B963;
+}
+
+#jasdl-mainnav a {
+	color: #F1E7D7;
+	border-right: 1px solid #BD7300;
+}
+
+#jasdl-mainnav a:hover,
+#jasdl-mainnav ul li.hover a {
+	background: url(../../images/orange/grad2-1.gif) repeat-x top #BD7300;
+}
+
+/*cssmenu*/
+#ja-cssmenu li {
+	border-right: 1px solid #F0B963;
+}
+
+#ja-cssmenu li a {
+	color: #F1E7D7;
+	border-right: 1px solid #BD7300;
+}
+
+#ja-cssmenu li:hover,
+#ja-cssmenu li.sfhover,
+#ja-cssmenu li.havechildsfhover,
+#ja-cssmenu li.havechild-activesfhover {
+	background: url(../../images/orange/grad2-1.gif) repeat-x top #BD7300;
+}
+
+#ja-cssmenu li ul {
+	border: 1px solid #BD7300;
+	background: url(../../images/orange/grad2.gif) repeat-x bottom #EBA537;
+}
+
+#ja-cssmenu li ul li {
+	border-bottom: 1px solid #D88400;
+}
+
+#ja-cssmenu li ul a:hover,
+#ja-cssmenu li ul a:active,
+#ja-cssmenu li ul a:focus,
+#ja-cssmenu ul li:hover,
+#ja-cssmenu ul li.sfhover,
+#ja-cssmenu ul li.havesubchildsfhover,
+#ja-cssmenu ul li.havesubchild-activesfhover,
+#ja-cssmenu ul ul li:hover,
+#ja-cssmenu ul ul li.sfhover,
+#ja-cssmenu ul ul li.havesubchildsfhover,
+#ja-cssmenu ul ul li.havesubchild-activesfhover {
+	background: url(../../images/orange/grad2-1.gif) repeat-x top #BD7300;
+}
+

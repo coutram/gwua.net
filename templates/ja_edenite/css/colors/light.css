@@ -1,0 +1,345 @@
+body#bd {
+	color: #333333;
+	background: none #FFFFFF;
+}
+
+.home-deco {
+	background: none;
+}
+
+a {
+	color: #A80000;
+}
+
+a:hover, a:active, a:focus {
+	color: #000000;
+}
+
+.inputbox {
+	border: 1px solid #CCCCCC;
+}
+
+h1.logo-text a {
+	color: #333333 !important;
+}
+
+h1.logo a {
+	background: url(../../images/light/logo.png) no-repeat;
+}
+
+pre, .code {
+	background: #FFFFCC;
+	border-left: 5px solid #CCCCCC;
+}
+
+blockquote span.open {
+	background: url(../../images/light/so-q.gif) no-repeat left top;
+}
+
+blockquote span.close {
+	background: url(../../images/light/sc-q.gif) no-repeat bottom right;
+}
+
+/* Note Style */
+p.stickynote {
+	background: url(../../images/light/sticky-bg.gif) no-repeat 5px center #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+
+p.download {
+	background: url(../../images/light/download-bg.gif) no-repeat 5px center #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+
+ul.stars li {
+	background: url(../../images/light/icon-star.gif) no-repeat 0 5px;
+}
+
+ul.arrow li {
+	background: url(../../images/light/icon-arrow.gif) no-repeat 3px 5px;
+}
+
+/* Bignumber */
+.bignumber {
+	background: url(../../images/light/ol-bg.gif) no-repeat top left;
+}
+
+/* Tips, Error, Message, Hightlight*/
+p.error {
+	background: url(../../images/light/icon-error.gif) no-repeat top left;
+}
+
+p.message {
+	background: url(../../images/light/icon-info.gif) no-repeat top left;
+
+}
+
+p.tips {
+	background: url(../../images/light/icon-tips.gif) no-repeat top left;
+}
+
+.highlight {
+	background: #FFFFCC;
+}
+
+/* Talking box. Thinking box. */
+div.bubble1 div {
+	background: url(../../images/light/bub1-br.gif) no-repeat bottom right;
+}
+
+div.bubble1 div div {
+	background: url(../../images/light/bub1-bl.gif) no-repeat bottom left;
+}
+
+div.bubble1 div div div {
+	background: url(../../images/light/bub1-tr.gif) no-repeat top right;
+}
+
+div.bubble1 div div div div {
+	background: url(../../images/light/bub1-tl.gif) no-repeat top left;
+}
+
+div.bubble2 div {
+	background: url(../../images/light/bub2-br.gif) no-repeat bottom right;
+}
+
+div.bubble2 div div {
+	background: url(../../images/light/bub2-bl.gif) no-repeat bottom left;
+}
+
+div.bubble2 div div div {
+	background: url(../../images/light/bub2-tr.gif) no-repeat top right;
+}
+
+div.bubble2 div div div div {
+	background: url(../../images/light/bub2-tl.gif) no-repeat top left;
+}
+
+div.bubble3 div {
+	background: url(../../images/light/bub3-br.gif) no-repeat bottom right;
+	margin: 0;
+	width: 100%;
+}
+
+div.bubble3 div div {
+	background: url(../../images/light/bub3-bl.gif) no-repeat bottom left;
+}
+
+div.bubble3 div div div {
+	background: url(../../images/light/bub3-tr.gif) no-repeat top right;
+}
+
+div.bubble3 div div div div {
+	background: url(../../images/light/bub3-tl.gif) no-repeat top left;
+}
+
+div.bubble4 div {
+	background: url(../../images/light/bub4-br.gif) no-repeat bottom right;
+}
+
+div.bubble4 div div {
+	background: url(../../images/light/bub4-bl.gif) no-repeat bottom left;
+}
+
+div.bubble4 div div div {
+	background: url(../../images/light/bub4-tr.gif) no-repeat top right;
+}
+
+div.bubble4 div div div div {
+	background: url(../../images/light/bub4-tl.gif) no-repeat top left;
+}
+
+/* Legend */
+.legend-title {
+	background: #FFFFFF;
+}
+
+.legend {
+	border: 1px solid #CCCCCC;
+}
+
+ul.menu li a {
+	background: url(../../images/light/mainlevel-bg.gif) no-repeat top right;
+	color: #333333 !important;
+}
+
+ul.menu li a:hover,
+ul.menu li a:active,
+ul.menu li a:focus {
+	background: url(../../images/light/mainlevel-bg.gif) no-repeat bottom right;
+}
+
+ul.menu li li a {
+	background: url(../../images/light/arrow2.png) no-repeat 10px 12px !important;
+	color: #333333 !important;
+}
+
+ul.menu li li a:hover,
+ul.menu li li a:active,
+ul.menu li li a:focus {
+	color: #A80000 !important;
+}
+
+td.sectiontableheader {
+	background: #1E1E1E;
+	border: 1px solid #FFFFFF;
+	padding: 4px;
+}
+
+table.pollstableborder tr.sectiontableentry1 td {
+	background: #CCCCCC;
+}
+
+#ja-botslwrap a {
+	color: #999999;
+}
+
+#ja-botslwrap a:hover, #ja-botslwrap a:active, #ja-botslwrap a:focus {
+	color: #FFFFFF;
+}
+
+#ja-search {
+	background: url(../../images/light/search-bg.gif) no-repeat 0 2px;
+}
+
+/*Modules*/
+div.moduletable h3,
+div.moduletable_menu h3,
+div.moduletable_text h3,
+div.moduletable_default h3 {
+	color: #333333;
+}
+
+#ja-botslwrap h3 {
+	color: #999999;
+}
+
+/*Columns*/
+#ja-colwrap {
+	color: #333333;
+}
+
+#ja-colwrap a {
+	color: #A80000;
+}
+
+#ja-colwrap a:hover, #ja-colwrap a:active, #ja-colwrap a:focus {
+	color: #000000;
+}
+
+#ja-col1-top {
+	background: url(../../images/light/col-top.png) no-repeat top left;
+}
+
+#ja-col1-center {
+	background: url(../../images/light/col-center.png) repeat-y left;
+}
+
+#ja-col1-bot {
+	background: url(../../images/light/col-bot.gif) no-repeat bottom left;
+}
+
+.narrow #ja-col1-bot {
+	background: url(../../images/light/col-bot-n.gif) no-repeat bottom left;
+}
+
+.narrow #ja-col1-top {
+	background: url(../../images/light/col-top-n.png) no-repeat top left;
+}
+
+.narrow #ja-col1-center {
+	background: url(../../images/light/col-center-n.png) repeat-y left;
+}
+
+/* JA NEWS
+--------------------------------------------------- */
+.ja-newshlwrap div.ja-newscat span {
+	color: #333333;
+}
+
+#jahl-newsitem a.ja-newstitle { 
+	color: #A80000;
+}
+
+a.ja-newstitle:hover, a.ja-newstitle:active, a.ja-newstitle:focus {
+	color: #333333;
+}
+
+.ja-newshlwrap div.ja-newscat {
+	border-bottom: 1px solid #1E1E1E;
+}
+
+ul.ja-newslinks li {
+	background: url(../../images/light/arrow2.png) no-repeat 2px 8px;
+}
+
+#jahl-indicator {
+	background: #202020;
+	color: #FFFFFF;
+}
+
+#ja-newswrap a.readon {
+	color: #CCCCCC;
+}
+
+#ja-newswrap a.readon:hover,
+#ja-newswrap a.readon:active,
+#ja-newswrap a.readon:focus {
+	color: #FFFFFF;
+}
+
+ul.ja-newslinks li a,
+ul.ja-newslinks li a:hover,
+ul.ja-newslinks li a:active,
+ul.ja-newslinks li a:focus {
+	color: #333333;
+}
+
+.ja-newscontent img,
+div.ja-innerdiv img {
+	border: 3px solid #CCCCCC;
+}
+
+/* NAVIGATIONS
+--------------------------------------------------- */
+#ja-splitmenu a {
+	color: #333333;
+}
+
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus {
+	background: url(../../images/light/nav-bg.gif) no-repeat center bottom;
+	color: #333333;
+}
+
+#jasdl-mainnav a {
+	color: #333333;
+}
+
+#jasdl-mainnav a:hover,
+#jasdl-mainnav ul li.hover a {
+	background: url(../../images/light/nav-bg.gif) no-repeat center bottom;
+	color: #333333;
+}
+
+#ja-cssmenu li a {
+	color: #333333;
+}
+
+#ja-cssmenu li:hover,
+#ja-cssmenu li.sfhover,
+#ja-cssmenu li.havechildsfhover,
+#ja-cssmenu li.havechild-activesfhover {
+	background: url(../../images/light/nav-bg.gif) no-repeat center bottom;
+	color: #333333;
+}
+
+#ja-cssmenu li ul {
+	border: 1px solid #CCCCCC;
+}
+
+#ja-cssmenu li ul li {
+	border-top: 1px solid #EFEFEF;
+	border-bottom: 1px solid #AAAAAA;
+}
