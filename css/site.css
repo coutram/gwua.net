@@ -1,0 +1,102 @@
+/* reset browser defaults */
+body,div,dl,dt,dd,ul,ol,
+li,h1,h2,h3,h4,h5,h6,
+pre,form,fieldset,p,
+blockquote,th,td          {margin:0;padding:0;}
+body                      {color:#515756;background:#fff;}
+h1,h2,h3,h4,h5,h6,p       {font-size:100%;font-weight:400;}
+ol,ul                     {list-style:none;}
+caption,cite,code,th      {font-style:normal;font-weight:400;}
+fieldset,img              {border:0;}
+caption,th                {text-align:left;}
+:focus                    {outline:1px dotted #eee;}
+table                     {border-collapse:collapse;border-spacing:0;}
+hr                        {border:0;border-top:1px solid #555;margin:0;height:1px;}
+
+/* body wrapper */
+body { width: 950px; position:relative; margin:0 auto; padding:0;font-family:"Lucida Grande",Arial,sans-serif;}
+label {cursor:pointer;}
+input, select, textarea {font-family:Tahoma,Arial,sans-serif;color:#515756;}
+
+/* header branding */
+div#branding h1 {display:block;height: 42px; width: 435px;position:relative;margin-bottom:20px;}
+div#branding h1 a {background: url(templates/ja_edenite/images/logo.gif) no-repeat;}
+div#branding h1 a { display:block; height:42px; left:0px; position:absolute;width:435px; text-indent:-9999px;}
+
+/* skip to content */
+body a.skip-to-content {display:block; text-indent: -9999px;}
+
+/* login */
+div#login {width:38%;position:absolute; right:0px; top:15px; border:1px solid #e7e8e6;padding:4px 8px; }
+div#login {background:url(templates/ja_edenite/images/grad4.gif) repeat-x 50% 100% #f8f8f7;}
+div#login form {margin:0;padding:0;}
+div#login form a {color:#858783;font-size:10px;padding:0 5px;text-decoration:none;}
+div#login #input-username, div#login #input-userpass {padding:2px;margin:0;width:110px;margin:1px 8px 0px 0px;font-size:11px !important;}
+.text-box {background:#fff;border:1px #ccc solid;color:#515756;}
+div#login label {float:left;}
+div#login label span {float:left;width:20px;height:20px;display:block;text-indent: -9999px;}
+div#login #login-username {background:url(templates/ja_edenite/images/icon-user.gif) no-repeat 0% 50%;}
+div#login #login-userpass {background:transparent url(templates/ja_edenite/images/icon-key.gif) no-repeat scroll left center;}
+div#login input.button {float:left;color:#515756;font-size:11px !important;font-weight:bold; padding: 2px 8px;text-transform:capitalize;background:url(templates/ja_edenite/images/grad4.gif) repeat-x;border:1px outset #A8A8A8;}
+div#login ul { clear:both; width:auto;overflow:hidden;margin:0 auto;padding:0;}
+div#login ul li {display:inline;}
+div#login ul li a:hover,div#login ul li a:active,
+div#login ul li a:focus {text-decoration:underline;color:#515756;}
+
+/* navigation */
+div#nav-bar ul {height:35px;background:transparent url(templates/ja_edenite/images/shadow.gif) repeat-x scroll center bottom;}
+div#nav-bar ul li ul {background:none;}
+div#search {position:absolute;right:10px;bottom:10px;font-size:0.7em;}
+div#search input {border:1px solid #E7E8E6;padding:2px 0 2px 22px;background: #FFFFFF url(templates/ja_edenite/images/icon-search.gif) no-repeat scroll 5px center;}
+
+/* Home navigation */
+body.home div#nav-bar ul li a.home {color:#fff;background:#B99B0F url(templates/ja_edenite/images/grad2-2.gif) repeat-x scroll center top;}
+
+/* Content container */
+div#content-container {position:relative;height:auto;overflow:hidden;margin:25px 0; border:1px solid #E7E8E6;background: #FFFFFF url(templates/ja_edenite/images/grad1.gif) repeat-x scroll center bottom;}
+div#content-container{border-bottom:2px solid #E7E8E6;}
+div#content-container a {color:#1B335D;text-decoration:none;}
+div#content-container a:hover {color:#1B335D;text-decoration:underline;}
+
+/* Columns */
+div#content-container div.column {font-size:0.7em;}
+div#content-container div.column h3 {font-size:1em;background:#1B335D url(templates/ja_edenite/images/grad2.gif) repeat-x scroll center top;width:100%;color:#fff;text-align:left;text-transform:capitalize;font-weight:bold;line-height:2em;padding:3px;margin:5px 0;}
+
+/* Left Column */
+div#content-container div#left-col {width:20%;font-size: 0.7em;position:relative;float: left;overflow: hidden;display:block;}
+div#content-container div#left-col ul {position:relative;margin: 0 auto;}
+div#content-container div#left-col ul li a {background:transparent url(templates/ja_edenite/images/arrow.png) no-repeat scroll 97% center;border-bottom:1px solid #E7E8E6;color:#626A69;display:block;outline-color:-moz-use-text-color;outline-style:none;outline-width:medium;padding:6px 4px;}
+div#content-container div#left-col ul li a {text-decoration: none;text-transform:capitalize;}
+div#content-container div#left-col ul li a:hover {color:#1B335D;text-decoration:underline;background:transparent url(templates/ja_edenite/images/arrow2.png) no-repeat scroll 97% center;}
+
+/* Right Column */
+div#content-container div#right-col {width:20%;position:relative;float: right;overflow:hidden;margin:0;padding:0;border-left:1px solid #e7e8e6;}
+div#content-container div#right-col h3 {margin:0;width:100%;}
+div#content-container div#right-col blockquote {margin:10px 0;padding:5px;line-height:1.6em;font-size:100%;}
+div#content-container div#right-col span.author {display:block;}
+div#content-container div#right-col span.author a {padding:0;}
+div#content-container div#right-col img {display:block;margin:0 auto;text-align:center;padding:5px;}
+div#content-container div#right-col a { margin:0 auto;padding:0 5px;display:block;}
+
+/* Main Content */
+div#content-container div#main-content {width:55%;margin:0;padding:0;border-left:1px solid #e7e8e6;line-height:1.2em;position:relative;float:left}
+div#content-container div#main-content h2 {color:#566D9A;font-size:115%;padding:10px 0 0 10px;}
+div#content-container div#main-content p {margin:10px 0;font-size:75%;padding:10px;}
+div#content-container div#main-content dl.president {text-align:right;margin:0;padding:0;font-size:75%;}
+div#content-container div#main-content dl.president dt.signature {display:block;background: transparent url(images/stories/signature.png) no-repeat bottom right;padding-bottom:30px;}
+div#content-container div#main-content dl.president dd {display:block; text-align:right;}
+
+/* Slideshow */
+div#content-container div#main-content ul#slideshow {margin:0;padding:0;line-height:0;}
+div#content-container div#main-content ul#slideshow li {margin:0;padding:0;line-height:0;}
+
+/* Pathway */
+div#pathway {font-size:70%;background:#F8F8F7 none repeat scroll 0 0;border:1px dashed #EDCA23;color:#495D82;font-weight:bold;padding:5px 15px;text-align:right;}
+
+/* Footer */
+div#footer {text-align:center;font-size:70%;margin:20px 0;}
+div#footer a:hover {color:#1B335D;text-decoration:underline;}
+div#footer a {color:#1B335D;text-decoration:none;}
+div#footer ul li {display:inline;padding:0 10px;margin:0;border-left:1px solid #e7e8e6;}
+div#footer small {display:block;padding:0;margin:15px 0;}
+
