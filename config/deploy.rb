@@ -8,7 +8,7 @@ set :repo_url, 'https://github.com/coutram/gwua.net.git'
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/var/www/html/gwuadotnet'
+set :deploy_to, '/var/www/html/gwua'
 
 # Default value for :scm is :git
 # set :scm, :git
@@ -32,7 +32,7 @@ set :log_level, :debug
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
 # Default value for keep_releases is 5
-set :keep_releases, 5
+# set :keep_releases, 5
 
 namespace :deploy do
 

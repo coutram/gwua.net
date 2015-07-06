@@ -20,7 +20,7 @@ input, select, textarea {font-family:Tahoma,Arial,sans-serif;color:#515756;}
 
 /* header branding */
 div#branding h1 {display:block;height: 42px; width: 435px;position:relative;margin-bottom:20px;}
-div#branding h1 a {background: url(templates/ja_edenite/images/logo.gif) no-repeat;}
+div#branding h1 a {background: url(/templates/ja_edenite/images/logo.gif) no-repeat;}
 div#branding h1 a { display:block; height:42px; left:0px; position:absolute;width:435px; text-indent:-9999px;}
 
 /* skip to content */
@@ -28,15 +28,15 @@ body a.skip-to-content {display:block; text-indent: -9999px;}
 
 /* login */
 div#login {width:38%;position:absolute; right:0px; top:15px; border:1px solid #e7e8e6;padding:4px 8px; }
-div#login {background:url(templates/ja_edenite/images/grad4.gif) repeat-x 50% 100% #f8f8f7;}
+div#login {background:url(/templates/ja_edenite/images/grad4.gif) repeat-x 50% 100% #f8f8f7;}
 div#login form {margin:0;padding:0;}
 div#login form a {color:#858783;font-size:10px;padding:0 5px;text-decoration:none;}
 div#login #input-username, div#login #input-userpass {padding:2px;margin:0;width:110px;margin:1px 8px 0px 0px;font-size:11px !important;}
 .text-box {background:#fff;border:1px #ccc solid;color:#515756;}
 div#login label {float:left;}
 div#login label span {float:left;width:20px;height:20px;display:block;text-indent: -9999px;}
-div#login #login-username {background:url(templates/ja_edenite/images/icon-user.gif) no-repeat 0% 50%;}
-div#login #login-userpass {background:transparent url(templates/ja_edenite/images/icon-key.gif) no-repeat scroll left center;}
+div#login #login-username {background:url(/templates/ja_edenite/images/icon-user.gif) no-repeat 0% 50%;}
+div#login #login-userpass {background:transparent url(/templates/ja_edenite/images/icon-key.gif) no-repeat scroll left center;}
 div#login input.button {float:left;color:#515756;font-size:11px !important;font-weight:bold; padding: 2px 8px;text-transform:capitalize;background:url(templates/ja_edenite/images/grad4.gif) repeat-x;border:1px outset #A8A8A8;}
 div#login ul { clear:both; width:auto;overflow:hidden;margin:0 auto;padding:0;}
 div#login ul li {display:inline;}
@@ -44,13 +44,13 @@ div#login ul li a:hover,div#login ul li a:active,
 div#login ul li a:focus {text-decoration:underline;color:#515756;}
 
 /* navigation */
-div#nav-bar ul {height:35px;background:transparent url(templates/ja_edenite/images/shadow.gif) repeat-x scroll center bottom;}
+div#nav-bar ul {height:35px;background:transparent url(/templates/ja_edenite/images/shadow.gif) repeat-x scroll center bottom;}
 div#nav-bar ul li ul {background:none;}
 div#search {position:absolute;right:10px;bottom:10px;font-size:0.7em;}
-div#search input {border:1px solid #E7E8E6;padding:2px 0 2px 22px;background: #FFFFFF url(templates/ja_edenite/images/icon-search.gif) no-repeat scroll 5px center;}
+div#search input {border:1px solid #E7E8E6;padding:2px 0 2px 22px;background: #FFFFFF url(/templates/ja_edenite/images/icon-search.gif) no-repeat scroll 5px center;}
 
 /* Home navigation */
-body.home div#nav-bar ul li a.home {color:#fff;background:#B99B0F url(templates/ja_edenite/images/grad2-2.gif) repeat-x scroll center top;}
+body.home div#nav-bar ul li a.home {color:#fff;background:#B99B0F url(/templates/ja_edenite/images/grad2-2.gif) repeat-x scroll center top;}
 
 /* Content container */
 div#content-container {position:relative;height:auto;overflow:hidden;margin:25px 0; border:1px solid #E7E8E6;background: #FFFFFF url(templates/ja_edenite/images/grad1.gif) repeat-x scroll center bottom;}
@@ -60,14 +60,14 @@ div#content-container a:hover {color:#1B335D;text-decoration:underline;}
 
 /* Columns */
 div#content-container div.column {font-size:0.7em;}
-div#content-container div.column h3 {font-size:1em;background:#1B335D url(templates/ja_edenite/images/grad2.gif) repeat-x scroll center top;width:100%;color:#fff;text-align:left;text-transform:capitalize;font-weight:bold;line-height:2em;padding:3px;margin:5px 0;}
+div#content-container div.column h3 {font-size:1em;background:#1B335D url(/templates/ja_edenite/images/grad2.gif) repeat-x scroll center top;width:100%;color:#fff;text-align:left;text-transform:capitalize;font-weight:bold;line-height:2em;padding:3px;margin:5px 0;}
 
 /* Left Column */
 div#content-container div#left-col {width:20%;font-size: 0.7em;position:relative;float: left;overflow: hidden;display:block;}
 div#content-container div#left-col ul {position:relative;margin: 0 auto;}
-div#content-container div#left-col ul li a {background:transparent url(templates/ja_edenite/images/arrow.png) no-repeat scroll 97% center;border-bottom:1px solid #E7E8E6;color:#626A69;display:block;outline-color:-moz-use-text-color;outline-style:none;outline-width:medium;padding:6px 4px;}
+div#content-container div#left-col ul li a {background:transparent url(/templates/ja_edenite/images/arrow.png) no-repeat scroll 97% center;border-bottom:1px solid #E7E8E6;color:#626A69;display:block;outline-color:-moz-use-text-color;outline-style:none;outline-width:medium;padding:6px 4px;}
 div#content-container div#left-col ul li a {text-decoration: none;text-transform:capitalize;}
-div#content-container div#left-col ul li a:hover {color:#1B335D;text-decoration:underline;background:transparent url(templates/ja_edenite/images/arrow2.png) no-repeat scroll 97% center;}
+div#content-container div#left-col ul li a:hover {color:#1B335D;text-decoration:underline;background:transparent url(/templates/ja_edenite/images/arrow2.png) no-repeat scroll 97% center;}
 
 /* Right Column */
 div#content-container div#right-col {width:20%;position:relative;float: right;overflow:hidden;margin:0;padding:0;border-left:1px solid #e7e8e6;}
@@ -83,8 +83,15 @@ div#content-container div#main-content {width:55%;margin:0;padding:0;border-left
 div#content-container div#main-content h2 {color:#566D9A;font-size:115%;padding:10px 0 0 10px;}
 div#content-container div#main-content p {margin:10px 0;font-size:75%;padding:10px;}
 div#content-container div#main-content dl.president {text-align:right;margin:0;padding:0;font-size:75%;}
-div#content-container div#main-content dl.president dt.signature {display:block;background: transparent url(images/stories/signature.png) no-repeat bottom right;padding-bottom:30px;}
+div#content-container div#main-content dl.president dt.signature {display:block;background: transparent url(/images/stories/signature.png) no-repeat bottom right;padding-bottom:30px;}
 div#content-container div#main-content dl.president dd {display:block; text-align:right;}
+
+div#content-container div#full-content {width:75%;margin:0;padding:0;border-left:1px solid #e7e8e6;line-height:1.2em;position:relative;float:left}
+div#content-container div#full-content h2 {color:#566D9A;font-size:115%;padding:10px 0 0 10px;}
+div#content-container div#full-content p {margin:10px 0;font-size:75%;padding:10px;}
+div#content-container div#full-content dl.president {text-align:right;margin:0;padding:0;font-size:75%;}
+div#content-container div#full-content dl.president dt.signature {display:block;background: transparent url(/images/stories/signature.png) no-repeat bottom right;padding-bottom:30px;}
+div#content-container div#full-content dl.president dd {display:block; text-align:right;}
 
 /* Slideshow */
 div#content-container div#main-content ul#slideshow {margin:0;padding:0;line-height:0;}
@@ -100,3 +107,140 @@ div#footer a {color:#1B335D;text-decoration:none;}
 div#footer ul li {display:inline;padding:0 10px;margin:0;border-left:1px solid #e7e8e6;}
 div#footer small {display:block;padding:0;margin:15px 0;}
 
+ul.niceList {
+        margin-left: 0em;
+        padding-left: 1em;
+        margin-bottom: 1em;
+}
+
+ul.niceList li {
+        background: url(../images/bullet.gif) 0em 0.5em no-repeat;
+        padding-left: 1em;
+        list-style: none;
+}
+
+.niceList ul li {
+        background-image: url(../images/bullet_child.gif);
+}
+
+ul.niceList li {
+        margin-bottom: 0.5em;
+}
+
+ol.niceList {
+        margin-left: 1.5em;
+        padding-left: 0px;
+}
+
+.niceList ol li {
+        list-style: none;
+        background-image: none;
+        padding-left: 0em;
+}
+
+ol.niceSmallList {
+        margin-left: 0em;
+        padding-left: 1em;
+        margin-bottom: 0em;
+}
+
+ol.niceSmallList li {
+        padding: 0 1em;
+        margin: 0;
+        list-style: none;
+}
+
+.heading {
+        padding: 1em;
+        font-size: 22px;
+}
+
+.deans_heading{
+        background-color: #142644;
+        color: white;
+        padding: 2px;
+        font-weight: bold;
+
+}
+
+#hor-minimalist-a {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+        font-size: 12px;
+        background: #fff;
+        margin: 45px;
+        width: 600px;
+        border-collapse: collapse;
+        text-align: left;
+}
+
+#hor-minimalist-a th {
+        font-size: 14px;
+        font-weight: normal;
+        color: #039;
+        padding: 10px 8px;
+        border-bottom: 2px solid #6678b1;
+}
+
+#hor-minimalist-a td {
+        color: #669;
+        padding: 9px 8px 0px 8px;
+}
+
+#hor-minimalist-a tbody tr:hover td {
+        color: #009;
+}
+
+#hor-minimalist-b {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+        font-size: 12px;
+        background: #fff;
+        margin: 45px;
+        width: 480px;
+        border-collapse: collapse;
+        text-align: left;
+}
+
+#hor-minimalist-b th {
+        font-size: 14px;
+        font-weight: normal;
+        color: #039;
+        padding: 10px 8px;
+        border-bottom: 2px solid #6678b1;
+}
+
+#hor-minimalist-b td {
+        border-bottom: 1px solid #ccc;
+        color: #669;
+        padding: 6px 8px;
+}
+
+#hor-minimalist-b tbody tr:hover td {
+        color: #009;
+}
+        
+
+#ver-minimalist {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+        font-size: 12px;
+        margin: 45px;
+        width: 480px;
+        text-align: left;
+        border-collapse: collapse;
+}
+
+#ver-minimalist th {
+        padding: 8px 2px;
+        font-weight: normal;
+        font-size: 14px;
+        border-bottom: 2px solid #6678b1;
+        border-right: 30px solid #fff;
+        border-left: 30px solid #fff;
+        color: #039;
+}
+
+#ver-minimalist td {
+        padding: 12px 2px 0px 2px;
+        border-right: 30px solid #fff;
+        border-left: 30px solid #fff;
+        color: #669;
+}

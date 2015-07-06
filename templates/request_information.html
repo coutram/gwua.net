@@ -1,0 +1,71 @@
+<div id="full-content" style="padding: 5px;">
+	
+	<h2>Want to learn more about Georgetown Wesleyan University of the Americas</h2>
+
+	<div class="form-container">
+		<p>Fill out the form below as completely as possible and one of our staff will get in touch   with you. Please be sure to indicate how you prefer to be contacted.</p>
+	
+		<form action="controller.php?action=request_information" method="post">
+			<fieldset>
+				<legend>Contact Information</legend>
+					<div><label for="name">Name </label> <input id="name" type="text" size="50" class="error" /></div>
+					<div><label for="email">E-Mail </label> <input id="email" type="text" size="50" class="error" /></div>
+					<div><label for="phone">Phone </label> <input id="phone" type="text" size="50" class="error" /></div>
+					<div><label for="address1">Address 1 </label> <input id="address1" type="text" size="50" class="error" /></div>
+					<div><label for="address2">Address 2</label> <input id="address2" type="text" size="50" class="error" /></div>
+					<div><label for="city">City</label> <input id="city" type="text" name="city" value="" class="error" size="50" /></div>
+					<div><label for="state">State/Province</label> <input id="state" type="text" name="state" value="" class="error" size="50" /></div>
+					<div><label for="zip">Zip Code</label> <input id="zip" type="text" name="zip" value="" class="error" size="50" /></div>
+					<div><label for="country">Country </label> <input id="country" type="text" name="country" value="" class="error" size="50" /></div>
+					<div>
+						<label for="contact_by">I prefer to be contacted by </label>
+						<select id="contact_by">
+							<optgroup label="contact_by">
+								<option>Phone</option>
+								<option>Email</option>
+							</optgroup>
+						</select>
+					</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Educational Information</legend>
+					<div>
+						<label for="degree_seeking">Degree you're seeking </label>
+						<select id="degree_seeking">
+								<option value="Doctorate">Doctorate Degree</option>
+								<option value="Masters_Degree">Master's Degree</option>
+								<option value="Undergraduate_Degree">Undergraduate Degree</option>
+								<option value="Certificate">Certificate Programs</option>
+						</select>
+					</div>
+					<br />
+					<div>
+						<label for="discipline">Discipline of Interest </label>
+						<select id="discipline">
+								<option value="Education">Education</option>
+								<option value="Business">Business & Leadership</option>
+								<option value="Nursing">Health Sciences</option>
+								<option value="Engineering">Engineering</option>
+								<option value="Certificate Programs">Certificate Programs</option>
+						</select>
+					</div>
+					<div>
+						<label for="ed_goals">Educational Goals </label>
+						<textarea id="ed_goals" name="info" cols="40" rows="5" class="error"></textarea>
+					</div>
+					<div>
+						<label for="info">Question/Info Needed </label>
+						<textarea id="info" name="info" cols="40" rows="5" class="error"></textarea>
+					</div>
+			</fieldset>
+			
+			<div class="buttonrow">
+				<input type="submit" value="Save" class="button" />
+		
+				<input type="button" value="Discard" class="button" />
+			</div>
+	
+		</form>
+	</div>
+</div>

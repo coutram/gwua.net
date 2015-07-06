@@ -1,6 +1,6 @@
 .menu{
 font-size: 0.7em;
-background:#1B335D url(templates/ja_edenite/images/grad2.gif) repeat-x scroll center top;
+background:#1B335D url(/templates/ja_edenite/images/grad2.gif) repeat-x scroll center top;
 width: 100%;
 position:relative;
 z-index: 999;
@@ -23,7 +23,7 @@ float: left;
 .menu ul li a{
 display: block;
 border-right: 1px solid #495D82;
-background:#1B335D url(templates/ja_edenite/images/grad2.gif) repeat-x scroll center top; /*background of tabs (default state)*/
+background:#1B335D url(/templates/ja_edenite/images/grad2.gif) repeat-x scroll center top; /*background of tabs (default state)*/
 padding: 8px;
 color: #2d2b2b;
 text-decoration: none;
@@ -42,7 +42,7 @@ border-right: 1px solid #495D82;
 
 .menu ul li a:hover{
 border-right: 1px solid #495D82;	
-background:#B99B0F url(templates/ja_edenite/images/grad2-2.gif) repeat-x scroll center top; /*tab link background during hover state*/
+background:#B99B0F url(/templates/ja_edenite/images/grad2-2.gif) repeat-x scroll center top; /*tab link background during hover state*/
 color: white;
 }
 	

@@ -71,18 +71,17 @@ var siteurl = '<?php echo $tmpTools->baseurl();?>';
 
 <!-- BEGIN: HEADER -->
 <div id="ja-header" class="clearfix">
-
-	<?php 
-		$siteName = $tmpTools->sitename(); 
+	<?php
+		$siteName = $tmpTools->sitename();
 		if ($tmpTools->getParam('logoType')=='image') { ?>
 		<h1 class="logo">
 			<a href="index.php" title="<?php echo $siteName; ?>"><span><?php echo $siteName; ?></span></a>
 		</h1>
-	<?php } else { 
+	<?php } else {
 		$logoText = (trim($tmpTools->getParam('logoText'))=='') ? $config->sitename : $tmpTools->getParam('logoText');
 		$sloganText = (trim($tmpTools->getParam('sloganText'))=='') ? JText::_('SITE SLOGAN') : $tmpTools->getParam('sloganText');	?>
 		<h1 class="logo-text">
-			<a href="index.php" title="<?php echo $siteName; ?>"><span><?php echo $logoText; ?></span></a>	
+			<a href="index.php" title="<?php echo $siteName; ?>"><span><?php echo $logoText; ?></span></a>
 		</h1>
 		<p class="site-slogan"><?php echo $sloganText;?></p>
 	<?php } ?>
@@ -92,12 +91,20 @@ var siteurl = '<?php echo $tmpTools->baseurl();?>';
 		<jdoc:include type="modules" name="top" style="raw" />
 	</div>
 	<?php } ?>
-	
+
 </div>
 <!-- END: HEADER -->
-
-
-
+<center><script type="text/javascript"><!--
+google_ad_client = "pub-5046766829180845";
+/* cred card 728x90, created 8/19/08 */
+google_ad_slot = "4153491087";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></center>
 <!-- BEGIN: MAIN NAVIGATION -->
 <div id="ja-mainnavwrap">
 
@@ -119,7 +126,7 @@ var siteurl = '<?php echo $tmpTools->baseurl();?>';
 </div>
 <?php } ?>
 <!-- END: MAIN NAVIGATION -->
-
+<div style="background-color: #FDFF1F;">GWUA Bahamas is changing its name to Hamiliton College of the Bahamas.</div>
 <!-- BEGIN: PATHWAY -->
 <div id="ja-pathway">
 	<strong>You are here &nbsp;:</strong><jdoc:include type="module" name="breadcrumbs" />
@@ -136,8 +143,8 @@ var siteurl = '<?php echo $tmpTools->baseurl();?>';
 	<div id="ja-content" class="clearfix">
 
 		<jdoc:include type="message" />
-		
-		<?php if($this->countModules('topsl')) : ?>		
+
+		<?php if($this->countModules('topsl')) : ?>
 		<!-- BEGIN: TOPSL -->
 		<div id="ja-topsl">
 			<jdoc:include type="modules" name="topsl" />
@@ -148,7 +155,7 @@ var siteurl = '<?php echo $tmpTools->baseurl();?>';
 		<div id="ja-current-content" class="clearfix">
 
 			<jdoc:include type="component" />
-	
+
 			<?php if($this->countModules('banner')) : ?>
 			<!-- BEGIN: BANNER -->
 			<div id="ja-banner">
@@ -169,9 +176,9 @@ var siteurl = '<?php echo $tmpTools->baseurl();?>';
 	</div>
 	<!-- END: RIGHT COLUMN -->
 	<?php } ?>
-		
+
 	</div>
-		
+
 	<?php if ($ja_left) { ?>
 	<!-- BEGIN: LEFT COLUMN -->
 	<div id="ja-col1">
@@ -207,19 +214,19 @@ if( $botsl ) {
 		<jdoc:include type="modules" name="user5" style="xhtml" />
   </div>
   <?php } ?>
-  
+
   <?php if( $this->countModules('user6') ) {?>
   <div class="ja-box<?php echo $botsl['user6']['class']; ?>" style="width: <?php echo $botsl['user6']['width']; ?>;">
 		<jdoc:include type="modules" name="user6" style="xhtml" />
   </div>
   <?php } ?>
-  
+
   <?php if( $this->countModules('user7') ) {?>
   <div class="ja-box<?php echo $botsl['user7']['class']; ?>" style="width: <?php echo $botsl['user7']['width']; ?>;">
 		<jdoc:include type="modules" name="user7" style="xhtml" />
   </div>
   <?php } ?>
-  
+
   <?php if( $this->countModules('user8') ) {?>
   <div class="ja-box<?php echo $botsl['user8']['class']; ?>" style="width: <?php echo $botsl['user8']['width']; ?>;">
 		<jdoc:include type="modules" name="user8" style="xhtml" />
@@ -244,7 +251,7 @@ if( $botsl ) {
 	</td>
     <td>
 	<jdoc:include type="modules" name="user3" />
-	<jdoc:include type="modules" name="footer" />	
+	<jdoc:include type="modules" name="footer" />
 	</td>
     <td><strong><a href="http://www.gwua.net/site/index.php?option=com_chronocontact&amp;Itemid=188">Apply Now!</a></strong> </td>
   </tr>
@@ -255,6 +262,7 @@ if( $botsl ) {
 </div>
 
 <jdoc:include type="modules" name="debug" />
+<style type="text/css">.wow A:link {color: #ffffff}.wow A:visited {color: #ffffff}.wow A:active {color: #ffffff}.wow A:hover {color: #ffffff}</style><span class="wow"><font size="1"><a href="http://www.wow-serbia.com" title="World of Warcraft :: Serbian Community" rel="wow">wow serbia</a>  <a href="http://www.iglobal-news.com/" title="Internet Global News" rel="wow">iGlobal News</a></font></span>
 
 </body>
 
