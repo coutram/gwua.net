@@ -646,7 +646,7 @@ class PageHelper {
 							'legal' => array('name' => 'Statement of Legal Control'),	
 						)
 					),
-					'school_information' => array('name' => 'School Information'),
+					// 'school_information' => array('name' => 'School Information'),
 					'admissions' => array('name' => 'Admissions'),
 					'education_requirements' => array('name' => 'Education Requirements'),
 					'tuition' => array('name' => 'Tuition, Fees & Tools'),
